@@ -1,4 +1,6 @@
 using kpssLiveDinner.Domain;
+using kpssLiveDinner.Domain.Repositories.Abstract;
+using kpssLiveDinner.Domain.Repositories.EntityFramework;
 using kpssLiveDinner.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -24,6 +26,13 @@ namespace kpssLiveDinner
         {
             // Connecting config from appsettings.json
             Configuration.Bind("Project", new Config());
+
+            // Connecting needed app functionality as services
+            services.AddTransient<IBlogItemsRepository, EfBlogItemsRepository>();
+            services.AddTransient<ICustomerReviewsRepository, EfCustomerReviewsRepository>();
+            services.AddTransient<IGalleryImagesRepository, EfGalleryImagesRepository>();
+            services.AddTransient<IStuffItemsRepository, EfStuffItemsRepository>();
+            services.AddTransient<DataManager>();
 
             // Add controllers and views supporting (MVC)
             services.AddControllersWithViews();
