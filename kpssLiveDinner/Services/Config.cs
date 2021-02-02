@@ -13,5 +13,7 @@ namespace kpssLiveDinner.Services
         public static string Email { get; set; }
         public static string Location { get; set; }
 
+        public static string ConnectionString { get; set; }
+
     }
 }

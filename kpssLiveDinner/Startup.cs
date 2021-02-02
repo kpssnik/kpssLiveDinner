@@ -1,7 +1,9 @@
+using kpssLiveDinner.Domain;
 using kpssLiveDinner.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -25,6 +27,9 @@ namespace kpssLiveDinner
 
             // Add controllers and views supporting (MVC)
             services.AddControllersWithViews();
+
+            // Connecting context DB
+            services.AddDbContext<AppDbContext>(x => x.UseSqlServer(Config.ConnectionString));
 
         }
 
