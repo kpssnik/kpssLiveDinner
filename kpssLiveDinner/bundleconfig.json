@@ -12,5 +12,23 @@
       "wwwroot/css/style.css",
       "wwwroot/css/superslides.css"
     ]
+  },
+  {
+    "outputFileName": "wwwroot/js/bundle.js",
+    "inputFiles": [
+      "wwwroot/js/popper.min.js",
+      "wwwroot/js/bootstrap.min.js",
+      "wwwroot/js/contact-form-script.js",
+      "wwwroot/js/custom.js",
+      "wwwroot/js/form-validator.min.js",
+      "wwwroot/js/images-loded.min.js",
+      "wwwroot/js/isotope.min.js",
+      "wwwroot/js/jquery.mapify.js",
+      "wwwroot/js/jquery.superslides.min.js",
+      "wwwroot/js/jquery-3.2.1.min.js",
+      "wwwroot/js/legacy.js",
+      "wwwroot/js/picker.js",
+      "wwwroot/js/baguetteBox.min.js"
+    ]
   }
 ]

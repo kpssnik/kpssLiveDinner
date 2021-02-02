@@ -24,7 +24,6 @@ E:\Programming\PROJECTS\kpssLiveDinner\kpssLiveDinner\obj\Debug\net5.0\kpssLiveD
 E:\Programming\PROJECTS\kpssLiveDinner\kpssLiveDinner\obj\Debug\net5.0\kpssLiveDinner.TagHelpers.output.cache
 E:\Programming\PROJECTS\kpssLiveDinner\kpssLiveDinner\obj\Debug\net5.0\kpssLiveDinner.RazorCoreGenerate.cache
 E:\Programming\PROJECTS\kpssLiveDinner\kpssLiveDinner\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-E:\Programming\PROJECTS\kpssLiveDinner\kpssLiveDinner\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 E:\Programming\PROJECTS\kpssLiveDinner\kpssLiveDinner\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 E:\Programming\PROJECTS\kpssLiveDinner\kpssLiveDinner\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 E:\Programming\PROJECTS\kpssLiveDinner\kpssLiveDinner\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
@@ -43,3 +42,4 @@ E:\Programming\PROJECTS\kpssLiveDinner\kpssLiveDinner\obj\Debug\net5.0\Razor\Vie
 E:\Programming\PROJECTS\kpssLiveDinner\kpssLiveDinner\obj\Debug\net5.0\Razor\Views\Shared\LinkPartial.cshtml.g.cs
 E:\Programming\PROJECTS\kpssLiveDinner\kpssLiveDinner\obj\Debug\net5.0\Razor\Views\Shared\MetatagsPartial.cshtml.g.cs
 E:\Programming\PROJECTS\kpssLiveDinner\kpssLiveDinner\obj\Debug\net5.0\Razor\Views\Shared\ScriptsPartial.cshtml.g.cs
+E:\Programming\PROJECTS\kpssLiveDinner\kpssLiveDinner\obj\Debug\net5.0\Razor\Views\Home\About.cshtml.g.cs
