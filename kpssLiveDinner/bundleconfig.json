@@ -1,0 +1,16 @@
+[
+  {
+    "outputFileName": "wwwroot/css/bundle.css",
+    "inputFiles": [
+      "wwwroot/css/animate.css",
+      "wwwroot/css/baguetteBox.min.css",
+      "wwwroot/css/bootstrap.min.css",
+      "wwwroot/css/classic.css",
+      "wwwroot/css/custom.css",
+      "wwwroot/css/font-awesome.min.css",
+      "wwwroot/css/responsive.css",
+      "wwwroot/css/style.css",
+      "wwwroot/css/superslides.css"
+    ]
+  }
+]
