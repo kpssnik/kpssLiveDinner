@@ -43,3 +43,8 @@ E:\Programming\PROJECTS\kpssLiveDinner\kpssLiveDinner\obj\Debug\net5.0\Razor\Vie
 E:\Programming\PROJECTS\kpssLiveDinner\kpssLiveDinner\obj\Debug\net5.0\Razor\Views\Shared\MetatagsPartial.cshtml.g.cs
 E:\Programming\PROJECTS\kpssLiveDinner\kpssLiveDinner\obj\Debug\net5.0\Razor\Views\Shared\ScriptsPartial.cshtml.g.cs
 E:\Programming\PROJECTS\kpssLiveDinner\kpssLiveDinner\obj\Debug\net5.0\Razor\Views\Home\About.cshtml.g.cs
+E:\Programming\PROJECTS\kpssLiveDinner\kpssLiveDinner\obj\Debug\net5.0\Razor\Views\Home\Blog.cshtml.g.cs
+E:\Programming\PROJECTS\kpssLiveDinner\kpssLiveDinner\obj\Debug\net5.0\Razor\Views\Home\Contact.cshtml.g.cs
+E:\Programming\PROJECTS\kpssLiveDinner\kpssLiveDinner\obj\Debug\net5.0\Razor\Views\Home\Gallery.cshtml.g.cs
+E:\Programming\PROJECTS\kpssLiveDinner\kpssLiveDinner\obj\Debug\net5.0\Razor\Views\Home\Reservation.cshtml.g.cs
+E:\Programming\PROJECTS\kpssLiveDinner\kpssLiveDinner\obj\Debug\net5.0\Razor\Views\Home\Stuff.cshtml.g.cs
