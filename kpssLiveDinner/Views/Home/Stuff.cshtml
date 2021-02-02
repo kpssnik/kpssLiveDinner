@@ -1,4 +1,5 @@
-﻿@{
+﻿@model IQueryable<StuffItem>
+@{
     ViewData["Title"] = "Stuff";
     ViewData["Heading"] = "Our stuff";
 
@@ -19,12 +20,12 @@
         <div class="row">
 
             @{
-                for (int i = 0; i < 6; i++)
+                foreach (var item in Model)
                 {
                     <div class="col-md-4 col-sm-6">
                         <div class="our-team">
                             <div class="pic">
-                                <img src="~/images/stuff-img-01.jpg">
+                                <img src="~/images/@item.ImagePath">
                                 <ul class="social">
                                     <li><a href="#" class="fa fa-facebook"></a></li>
                                     <li><a href="#" class="fa fa-google-plus"></a></li>
@@ -33,16 +34,14 @@
                                 </ul>
                             </div>
                             <div class="team-content">
-                                <h3 class="title">Williamson</h3>
-                                <span class="post">Web Developer</span>
+                                <h3 class="title">@item.Name</h3>
+                                <span class="post">@item.Role</span>
                             </div>
                         </div>
 
                     </div>
                 }
             }
-
-
 
         </div>
     </div>

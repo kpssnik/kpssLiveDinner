@@ -1,4 +1,5 @@
-﻿@{
+﻿@model IQueryable<GalleryImage>
+@{
     ViewData["Title"] = "Gallery";
     ViewData["Heading"] = "Gallery";
 
@@ -20,18 +21,16 @@
             <div class="row">
 
                 @{
-                    for (int i = 0; i < 6; i++)
+                    foreach(var item in Model)
                     {
                         <div class="col-sm-12 col-md-4 col-lg-4">
-                            <a class="lightbox" href="~/images/gallery-img-01.jpg">
-                                <img class="img-fluid" src="~/images/gallery-img-01.jpg" alt="Gallery Images">
+                            <a class="lightbox" href="~/images/@item.ImagePath">
+                                <img class="img-fluid" src="~/images/@item.ImagePath" alt="Gallery Images">
                             </a>
                         </div>
                     }
 
                 }
-
-
 
             </div>
         </div>

@@ -33,8 +33,15 @@ using kpssLiveDinner.Services;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "E:\Programming\PROJECTS\kpssLiveDinner\kpssLiveDinner\Views\_ViewImports.cshtml"
+using kpssLiveDinner.Domain.Entities;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1e9aa46b9bad758d68e04df7c16851187d53d2e7", @"/Views/Shared/ContactPartial.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c064d63c831746c8eac0d60cdb522b91804af59e", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3f927a53c8f484c114cb646eafbcd1035830c3a4", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_ContactPartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

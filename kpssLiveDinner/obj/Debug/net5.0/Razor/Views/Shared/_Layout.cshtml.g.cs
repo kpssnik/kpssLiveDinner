@@ -33,8 +33,15 @@ using kpssLiveDinner.Services;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "E:\Programming\PROJECTS\kpssLiveDinner\kpssLiveDinner\Views\_ViewImports.cshtml"
+using kpssLiveDinner.Domain.Entities;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"00864b8f31791916883e8501bb5dbb1021b00c71", @"/Views/Shared/_Layout.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c064d63c831746c8eac0d60cdb522b91804af59e", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3f927a53c8f484c114cb646eafbcd1035830c3a4", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__Layout : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #line hidden
@@ -63,7 +70,7 @@ using kpssLiveDinner.Services;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<!-- Basic -->\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "00864b8f31791916883e8501bb5dbb1021b00c713484", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "00864b8f31791916883e8501bb5dbb1021b00c713683", async() => {
                 WriteLiteral("\r\n    \r\n    ");
 #nullable restore
 #line 6 "E:\Programming\PROJECTS\kpssLiveDinner\kpssLiveDinner\Views\Shared\_Layout.cshtml"
@@ -93,7 +100,7 @@ Write(await Html.PartialAsync("LinkPartial"));
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "00864b8f31791916883e8501bb5dbb1021b00c715216", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "00864b8f31791916883e8501bb5dbb1021b00c715415", async() => {
                 WriteLiteral("\r\n    <!-- Start header -->\r\n    ");
 #nullable restore
 #line 19 "E:\Programming\PROJECTS\kpssLiveDinner\kpssLiveDinner\Views\Shared\_Layout.cshtml"

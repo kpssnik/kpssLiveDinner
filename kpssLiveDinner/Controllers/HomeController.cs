@@ -1,4 +1,5 @@
-﻿using kpssLiveDinner.Models;
+﻿using kpssLiveDinner.Domain;
+using kpssLiveDinner.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -11,13 +12,10 @@ namespace kpssLiveDinner.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly DataManager _dataManager;
 
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
-
+        public HomeController(DataManager dataManager) => _dataManager = dataManager;
+     
         public IActionResult Index()
         {
             return View();
@@ -28,7 +26,7 @@ namespace kpssLiveDinner.Controllers
         }  
         public IActionResult Blog()
         {
-            return View();
+            return View(_dataManager.BlogItems.GetBlogItems());
         }
         public IActionResult Contact()
         {
@@ -36,15 +34,15 @@ namespace kpssLiveDinner.Controllers
         }
         public IActionResult Reservation()
         {
-            return View();
+            return View(_dataManager.CustomerReviews.GetCustomerReviews());
         }
         public IActionResult Stuff()
         {
-            return View();
+            return View(_dataManager.StuffItems.GetStuffItems());
         }
         public IActionResult Gallery()
         {
-            return View();
+            return View(_dataManager.GalleryImages.GetGalleryImages());
         }
 
 
